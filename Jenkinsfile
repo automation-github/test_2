@@ -7,7 +7,7 @@ pipeline {
     stage('test_2') {
       agent any
       steps {
-        build (job: 'test_2', propagate: false)
+        build (job: 'test_2_job', propagate: false)
       }
     }
 
